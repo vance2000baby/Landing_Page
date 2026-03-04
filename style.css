@@ -1,0 +1,97 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/*header's styling*/
+
+.header{
+    background-color: #1f2937;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+    flex: 1;
+}
+
+.tabs{
+    display: flex;  
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.text, .description img{
+    width: 50%;
+}
+
+.text h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.text p, .tabs a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 22px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.description{
+    display: flex;
+    padding: 5% 0;
+}
+
+.description button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 6px 25px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+/* Body's styling */
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 3;
+}
+
+.pictures{
+    display: flex;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer's styling */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
