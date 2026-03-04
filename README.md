@@ -1,1 +1,1 @@
-# Landing_Page
+This project showcases what I’ve learned about HTML, CSS, and Flexbox through The Odin Project. The website is properly styled and laid out, though it’s not meant to be perfect. I’ve named it Vancite, after my name, Vance. If you understand Chinese, you might even find a little humor hidden on the site. I hope you have fun exploring it!

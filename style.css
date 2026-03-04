@@ -1,4 +1,5 @@
 body{
+    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -9,7 +10,6 @@ body{
 
 .header{
     background-color: #1f2937;
-    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
     padding: 0 15%;
@@ -28,7 +28,7 @@ body{
 }
 
 .text, .description img{
-    width: 50%;
+    width: 49%;
 }
 
 .text h1{
@@ -37,7 +37,9 @@ body{
     font-weight: 900;
 }
 
-.text p, .tabs a{
+.text p, 
+.tabs a, 
+.tabs li{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -52,15 +54,16 @@ ul{
 
 a{
     text-decoration: none;
+    color: #f9faf8;
 }
 
 .description{
     display: flex;
+    justify-content: space-between;
     padding: 5% 0;
 }
 
 .description button{
-    color: #f9faf8;
     background-color: #3882f6;
     padding: 6px 25px;
     border-radius: 5px;
@@ -78,21 +81,98 @@ a{
 .body{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
     flex: 1;
+}
+
+.body-container, 
+.sign-up{
+    margin: 0 auto;
+}
+
+.body-container{
+    padding: 50px;
+}
+
+.title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .pictures{
     display: flex;
+    gap: 58px;
+}
+
+.pictures div{
+    width: 200px;
 }
 
 .pictures img{
-    border: 2px solid #3882f6;   
+    display: inline-block;
+    box-sizing: border-box;
+    border: 4px solid #3882f6; 
+    border-radius: 18px;
+    width: 100%;
+    height: 200px;  
+}
+
+.pictures p{
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding:5% 20%;
+}
+
+.quote p{
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+#author{
+    text-align: end;
 }
 
 .sign-up{
     display: flex;
     justify-content: space-between;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    margin: 100px auto;
+    border-radius: 12px;
+    width: 60%;
+}
+
+.sign-up h1{
+    color:#f9faf8;
+    font-weight: 900;
+}
+
+.sign-up p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+}
+
+.sign-up button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    padding: 8px 32px;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 /* Footer's styling */
