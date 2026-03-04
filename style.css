@@ -1,10 +1,8 @@
-html, body{
-    height: 100%;
-}
-
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
 
 /*header's styling*/
@@ -15,7 +13,6 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 15%;
-    flex: 1;
 }
 
 .tabs{
@@ -70,17 +67,27 @@ a{
     font-weight: 800;
 }
 
+
+.description img{
+    color: #f9faf8;
+    background-color: #818180;
+}
+
 /* Body's styling */
 
 .body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 3;
+    flex: 1;
 }
 
 .pictures{
     display: flex;
+}
+
+.pictures img{
+    border: 2px solid #3882f6;   
 }
 
 .sign-up{
@@ -91,6 +98,10 @@ a{
 /* Footer's styling */
 
 .footer{
+    font-size: 18px;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
